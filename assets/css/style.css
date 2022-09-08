@@ -1,0 +1,101 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 60px 20px 10px;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body > img {
+    margin: 0 10px;
+}
+
+.filmes img {
+    height: 250px;
+    width: 150px;
+    object-fit: cover;
+    margin: 2%;
+}
+
+.form{
+    margin: 20px;
+}
+
+.form, .form label{
+    text-align: center;
+    display: block;
+}
+
+.form label{
+    margin: 10px auto 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.form input{
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 25px;
+    border: white 1px solid;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.form input:focus{
+    border: lightcoral 3px solid;
+    outline: none;
+}
+
+.form button{
+    margin-top: 20px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #da1e26;
+    padding: 0 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: transparent;
+    color: white;
+}
+
+.form button:hover{
+    background-color: red;
+}
