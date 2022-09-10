@@ -1,5 +1,5 @@
-# ImersaoDev-04
+# ImersaoDev-05
 
-Imersão Dev - Aula 04 - Array, Lista e AluraFlix - Alura
+Imersão Dev - Aula 05 - Funções do AluraFlix - Alura
 
-<img src="https://i.pinimg.com/564x/d0/f4/d6/d0f4d613864e35a6f7a3b5b07a71bed2.jpg" width="100%">
+<img src="https://i.pinimg.com/564x/5d/4d/d0/5d4dd0c429fb726eb3c090df6d6fa58f.jpg" width="100%">
