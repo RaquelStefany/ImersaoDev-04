@@ -36,19 +36,33 @@ body {
     right: 10px;
 }
 
-#listaFilmes img {
-  margin: 10px;
-  max-height: 250px;
+body > img {
+    margin: 0 10px;
 }
 
-.form-wrapper {
-    margin: 0 0 15px;
+.filmes img {
+    height: 250px;
+    width: 150px;
+    object-fit: cover;
+    margin: 2%;
 }
 
-.form-wrapper input {
+.form{
+    margin: 20px;
+}
+
+.form, .form label{
+    text-align: center;
     display: block;
-    margin: 0 auto;
-    padding: 10px 15px;
+}
+
+.form label{
+    margin: 10px auto 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.form input{
     width: 50%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -57,50 +71,17 @@ body {
     -o-border-radius: 5px;
     height: 25px;
     border: white 1px solid;
-    text-align: center;
-    font-size: large;
-}
-
-.form-wrapper button {
-    border: 0;
-    color: #ffffff;
-    background: #da1e26;
     font-weight: bold;
-    padding: 15px 20px;
-    font-size: 16px;
-    border-radius: 4px;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.form-wrapper button:hover {
-    opacity: 0.8;
-}
-
-
-.form-wrapper {
-    margin: 20px;
-}
-
-.form-wrapper,
-.form-wrapper label {
+    font-size: x-large;
     text-align: center;
-    display: block;
 }
 
-.form-wrapper label {
-    margin: 10px auto 5px;
-    color: white;
-    font-weight: bold;
-}
-
-.form-wrapper input:focus {
+.form input:focus{
     border: lightcoral 3px solid;
     outline: none;
 }
 
-.form-wrapper button {
+.form button{
     margin-top: 20px;
     height: 50px;
     font-weight: bold;
@@ -115,6 +96,6 @@ body {
     color: white;
 }
 
-.form-wrapper button:hover {
+.form button:hover{
     background-color: red;
 }

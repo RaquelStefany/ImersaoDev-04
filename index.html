@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Imersão Dev - Aula 05 - Alura
+        Imersão Dev - Aula 04 - Alura
     </title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -16,21 +16,29 @@
         <h1 class="page-title">
             AluraFlix
         </h1>
+        <p class="page-subtitle">
+            Insira a URL da capa de um Filme
+        </p>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
             alt="">
         <br>
-        <br>
-        <p class="page-subtitle">
-            Qual seu filme favorito?
-        </p>
-        <div class="form-wrapper">
-            <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
-            <button onclick="adicionarFilme()">Adicionar Filme</button>
+
+        <div class="form">
+            <label>
+                Insira a URL da capa de um Filme
+            </label>
+            <input type="text" class="imagem">
+            <br>
+            <button class="button" onclick="addImagem()">
+                Adicionar
+            </button>
         </div>
 
-        <div id="listaFilmes"></div>
-    </div>
+        <div class="filmes">
 
+        </div>
+
+    </div>
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
